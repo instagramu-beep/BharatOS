@@ -1,0 +1,10 @@
+[package]
+name = "bhfs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Custom journaling filesystem for BharatOS — BharatFS"
+[dependencies]
+bharat-libcore = { path = "../../libs/libcore" }
+bitflags = { version = "2.5", default-features = false }
+crc32fast = { version = "1.3", default-features = false }
