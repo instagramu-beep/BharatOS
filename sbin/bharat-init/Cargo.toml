@@ -1,0 +1,11 @@
+[package]
+name = "bharat-init"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Systemd-style init process for BharatOS"
+[dependencies]
+bhfs = { path = "../../fs/mount" }
+bharat-libcore = { path = "../../libs/libcore" }
+crossbeam = { version = "0.8", default-features = false }
+toml = { version = "0.8", default-features = false }

@@ -1,0 +1,70 @@
+{
+  "name": "BharatOS-X",
+  "version": "1.0.0-dev",
+  "description": "BharatOS — Independent Next-Generation Operating System",
+  "homepage": "https://bharatos.dev",
+  "repository": "https://github.com/bharatos/bharatos",
+  "license": "Apache-2.0",
+  "architecture": ["x86_64", "aarch64", "riscv64"],
+  "vendor": "BharatOS Foundation",
+  "maintainer": "BharatOS Core Team",
+  "tags": ["os", "kernel", "desktop", "rust", "ai-first", "security"],
+  "dependencies": {
+    "kernel": "0.1",
+    "libcore": "0.1",
+    "libhal": "0.1",
+    "libmm": "0.1",
+    "libsched": "0.1",
+    "libfs": "0.1",
+    "libnet": "0.1",
+    "libcrypto": "0.1",
+    "libaep": "0.1",
+    "libsurface": "0.1"
+  },
+  "binaries": {
+    "bharat-boot": "UEFI bootloader",
+    "bharat-kernel": "Custom kernel",
+    "bharat-init": "Init system",
+    "bharat-pkg": "Package manager",
+    "bharat-fsck": "Filesystem checker",
+    "bharat-cryptsetup": "Disk encryption",
+    "bharat-compositor": "GPU 3D compositor",
+    "satya-shell": "Desktop shell",
+    "bharat-display-manager": "Login manager",
+    "saty": "Text editor",
+    "bharat-browser": "Web browser",
+    "terminal": "Terminal emulator",
+    "pdf-reader": "PDF reader",
+    "sound": "Audio settings",
+    "clock": "Clock/alarm",
+    "bharat-ai": "AI daemon",
+    "bharat-voice-daemon": "Voice assistant",
+    "bharat-sdk": "SDK tools",
+    "bharat-debugger": "Debugger"
+  },
+  "filesystems": ["BharatFS"],
+  "bootloader": "bharat-boot",
+  "init": "bharat-init",
+  "shell": "satya-shell",
+  "desktop": "Satya Desktop",
+  "ai": "BharatAI",
+  "package_manager": "BharatPkg",
+  "default_target": "x86_64-unknown-uefi",
+  "targets": {
+    "x86_64-unknown-uefi": {
+      "status": "primary",
+      "gpu": "Vulkan",
+      "fc": true
+    },
+    "aarch64-unknown-none": {
+      "status": "secondary",
+      "gpu": "Vulkan/OpenGL ES",
+      "fc": false
+    },
+    "riscv64gc-unknown-none": {
+      "status": "experimental",
+      "gpu": "OpenGL ES",
+      "fc": false
+    }
+  }
+}

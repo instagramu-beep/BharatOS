@@ -1,0 +1,17 @@
+[package]
+name = "bharat-cryptsetup"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Disk and partition encryption setup daemon for BharatOS"
+[dependencies]
+bhfs = { path = "../../fs/mount" }
+bharat-libcrypto = { path = "../../libs/libcrypto" }
+clap = { version = "4.5", features = ["derive"] }
+[features]
+default = ["aes-gcm", "chacha"]
+aes-gcm = []
+chacha = []
+x25519 = []
+tpm = []
+fde = ["tpm"]

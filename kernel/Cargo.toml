@@ -1,0 +1,39 @@
+[package]
+name = "bharat-kernel"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+bharat-libcore = { path = "../libs/libcore" }
+bharat-libhal = { path = "../libs/libhal" }
+bharat-libmm = { path = "../libs/libmm" }
+bharat-libsched = { path = "../libs/libsched" }
+bharat-libfs = { path = "../libs/libfs" }
+bharat-libnet = { path = "../libs/libnet" }
+bharat-libaep = { path = "../libs/libaep", optional = true }
+bitflags = { version = "2.5", default-features = false }
+spin = { version = "0.9", default-features = false }
+hashbrown = { version = "0.14", default-features = false }
+arrayvec = { version = "0.7", default-features = false }
+x86_64 = { version = "0.15", default-features = false, features = ["instructions"] }
+crc32fast = { version = "1.3", default-features = false }
+aes = { version = "0.8", default-features = false }
+chacha20poly1305 = { version = "0.10", default-features = false }
+sha2 = { version = "0.10", default-features = false }
+x25519-dalek = { version = "2.0", default-features = false }
+ed25519-dalek = { version = "2.0", default-features = false }
+
+[features]
+default = ["x86_64"]
+x86_64 = []
+aarch64 = []
+riscv64 = []
+
+# Force core library style (no STL, no allocator from C++ runtime)
+[profile.kernel]
+inherits = "release"
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+strip = "symbols"
