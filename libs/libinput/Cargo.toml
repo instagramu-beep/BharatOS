@@ -1,0 +1,10 @@
+[package]
+name = "bharat-libinput"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS input device subsystem (keyboard, mouse, touch, pen)"
+[dependencies]
+bharat-libcore = { path = "../libcore" }
+bharat-libhal = { path = "../libhal" }
+pc-keyboard = { version = "0.8", default-features = false }

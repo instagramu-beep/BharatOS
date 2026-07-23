@@ -1,0 +1,17 @@
+[package]
+name = "bharat-libmm"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS physical and virtual memory manager"
+
+[dependencies]
+bharat-libcore = { path = "../libcore" }
+bharat-libhal = { path = "../libhal" }
+x86_64 = { version = "0.15", default-features = false, features = ["instructions"] }
+bitflags = { version = "2.5", default-features = false }
+spin = { version = "0.9", default-features = false }
+hashbrown = { version = "0.14", default-features = false }
+arrayvec = { version = "0.7", default-features = false }
+crossbeam = { version = "0.8", default-features = false }
+lock_api = { version = "0.4", default-features = false }

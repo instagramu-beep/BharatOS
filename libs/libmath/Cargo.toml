@@ -1,0 +1,19 @@
+[package]
+name = "bharat-libmath"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS math library (SIMD + SSE/AVX + soft-float)"
+[dependencies]
+bharat-libcore = { path = "../libcore" }
+num-traits = { version = "0.2", default-features = false }
+bytemuck = { version = "1.14", default-features = false }
+safe_arch = { version = "0.7", default-features = false }
+[features]
+default = ["sse", "fma", "avx"]
+sse = []
+avx = ["sse"]
+fma = []
+aarch64-neon = []
+riscv-zvl = []
+std = []
