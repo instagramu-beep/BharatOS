@@ -1,0 +1,10 @@
+[package]
+name = "bharat-libaudio"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS audio subsystem — HDA, pipewire-compatible"
+[dependencies]
+bharat-libcore = { path = "../libcore" }
+bharat-libhal = { path = "../libhal" }
+bitflags = { version = "2.5", default-features = false }

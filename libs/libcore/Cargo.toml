@@ -1,0 +1,11 @@
+[package]
+name = "bharat-libcore"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS no_std foundation crate — prelude, alloc, sync, math, io, arch"
+
+[dependencies]
+bitflags = "2.5"
+spin = { version = "0.9", default-features = false }
+arrayvec = { version = "0.7", default-features = false }
