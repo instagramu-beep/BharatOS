@@ -1,0 +1,15 @@
+/home/basant/Code/OpratingSystem/BharatOS/target/release/deps/thiserror-16d913fa08d66d8e.d: /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/lib.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/aserror.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/display.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/provide.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/var.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/private.rs /home/basant/Code/OpratingSystem/BharatOS/target/release/build/thiserror-7d7ab70e0e48af17/out/private.rs
+
+/home/basant/Code/OpratingSystem/BharatOS/target/release/deps/libthiserror-16d913fa08d66d8e.rlib: /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/lib.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/aserror.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/display.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/provide.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/var.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/private.rs /home/basant/Code/OpratingSystem/BharatOS/target/release/build/thiserror-7d7ab70e0e48af17/out/private.rs
+
+/home/basant/Code/OpratingSystem/BharatOS/target/release/deps/libthiserror-16d913fa08d66d8e.rmeta: /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/lib.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/aserror.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/display.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/provide.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/var.rs /home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/private.rs /home/basant/Code/OpratingSystem/BharatOS/target/release/build/thiserror-7d7ab70e0e48af17/out/private.rs
+
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/lib.rs:
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/aserror.rs:
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/display.rs:
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/provide.rs:
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/var.rs:
+/home/basant/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.19/src/private.rs:
+/home/basant/Code/OpratingSystem/BharatOS/target/release/build/thiserror-7d7ab70e0e48af17/out/private.rs:
+
+# env-dep:OUT_DIR=/home/basant/Code/OpratingSystem/BharatOS/target/release/build/thiserror-7d7ab70e0e48af17/out
