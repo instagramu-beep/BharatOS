@@ -1,0 +1,9 @@
+[package]
+name = "bharat-lib-sea"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Satya UI component framework"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }

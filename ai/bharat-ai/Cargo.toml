@@ -1,0 +1,16 @@
+[package]
+name = "bharat-ai"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS AI daemon — offline inference, context memory, privacy-first"
+
+[dependencies]
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaep = { path = "../../libs/libaep" }
+bharat-libcrypto = { path = "../../libs/libcrypto" }
+tokio = { version = "1.37", features = ["macros", "rt-multi-thread", "time", "sync", "net", "signal", "process", "fs"] }
+serde = { version = "1.0", features = ["derive"], default-features = false }
+serde_json = { version = "1.0", features = ["alloc"], default-features = false }
+toml = { version = "0.8", default-features = false }
+notify = "6.1"

@@ -1,0 +1,12 @@
+[package]
+name = "bharat-music"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS music player"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaudio = { path = "../../libs/libaudio" }
+rodio = { version = "0.17", default-features = false }
+hound = { version = "3.5", default-features = false }

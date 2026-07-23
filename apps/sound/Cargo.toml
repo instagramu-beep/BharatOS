@@ -1,0 +1,13 @@
+[package]
+name = "bharat-sound"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS sound settings / audio controller"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+
+[[bin]]
+name = "sound"
+path = "src/main.rs"

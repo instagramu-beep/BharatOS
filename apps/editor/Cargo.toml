@@ -1,0 +1,13 @@
+[package]
+name = "bharat-editor"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS text editor — SATY text editor with syntax highlighting"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+
+[[bin]]
+name = "saty"
+path = "src/main.rs"

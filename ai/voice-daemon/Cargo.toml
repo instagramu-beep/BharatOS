@@ -1,0 +1,11 @@
+[package]
+name = "bharat-voice-daemon"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS voice daemon — STT/TTS/voice interaction"
+[dependencies]
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaep = { path = "../../libs/libaep" }
+bharat-libaudio = { path = "../../libs/libaudio" }
+bharat-libinput = { path = "../../libs/libinput" }

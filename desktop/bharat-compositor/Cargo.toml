@@ -1,0 +1,12 @@
+[package]
+name = "bharat-compositor"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS GPU-accelerated 3D compositor"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaep = { path = "../../libs/libaep" }
+wgpu = { version = "0.20" }
+eframe = { version = "0.27", default-features = false, features = ["wgpu"] }

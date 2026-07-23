@@ -1,0 +1,23 @@
+[package]
+name = "bharat-satya-shell"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Satya Desktop Session Shell — DPMS, compositor, task switching, app overview"
+[dependencies]
+bharat-compositor = { path = "../bharat-compositor" }
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaep = { path = "../../libs/libaep" }
+crossbeam = { version = "0.8", default-features = false }
+bitflags = { version = "2.5", default-features = false }
+bytemuck = { version = "1.14", default-features = false }
+eframe = { version = "0.27", default-features = false, features = ["wgpu"] }
+wgpu = { version = "0.20" }
+[features]
+default = ["3d-wallpapers", "gesture-nav"]
+"3d-wallpapers" = ["wgpu/naga"]
+"gesture-nav" = []
+"ai-organization" = []
+"companion-mode" = []
+"accessibility" = []

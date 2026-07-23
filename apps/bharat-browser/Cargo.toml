@@ -1,0 +1,11 @@
+[package]
+name = "bharat-browser"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS web browser"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+bharat-libaep = { path = "../../libs/libaep" }
+bharat-libcrypto = { path = "../../libs/libcrypto" }

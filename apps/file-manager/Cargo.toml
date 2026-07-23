@@ -1,0 +1,11 @@
+[package]
+name = "bharat-file-manager"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "BharatOS file manager"
+[dependencies]
+bharat-libsurface = { path = "../../libs/libsurface" }
+bharat-libcore = { path = "../../libs/libcore" }
+bhfs = { path = "../../fs/mount" }
+image = { version = "0.25", default-features = false }
